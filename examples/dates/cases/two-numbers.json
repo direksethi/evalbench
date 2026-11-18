@@ -1,0 +1,5 @@
+{
+  "id": "two-numbers",
+  "input": "Order 2024 shipped on 2026-01-15.",
+  "reference": "2026-01-15"
+}

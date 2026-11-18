@@ -1,0 +1,5 @@
+{
+  "id": "long-month",
+  "input": "The contract was signed on March 5, 2024.",
+  "reference": "2024-03-05"
+}

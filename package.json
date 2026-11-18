@@ -1,0 +1,44 @@
+{
+  "name": "evalbench",
+  "version": "0.1.0",
+  "description": "File-based benchmark harness for comparing LLM pipelines on a fixed case set, with cached runs, pluggable scorers, an LLM judge and bootstrap confidence intervals.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Direk Sethi",
+  "bin": {
+    "evalbench": "bin/evalbench.js"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "bin",
+    "src",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test \"test/*.test.ts\"",
+    "example": "node bin/evalbench.js run naive --dir examples/dates --scorer exact && node bin/evalbench.js run numeric --dir examples/dates --scorer exact && node bin/evalbench.js run rules --dir examples/dates --scorer exact && node bin/evalbench.js leaderboard --dir examples/dates"
+  },
+  "keywords": [
+    "llm",
+    "evaluation",
+    "benchmark",
+    "evals",
+    "llm-judge",
+    "bootstrap"
+  ],
+  "dependencies": {
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}

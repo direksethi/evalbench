@@ -1,0 +1,5 @@
+{
+  "id": "year-first-words",
+  "input": "In 2025, on November 11, the office closed.",
+  "reference": "2025-11-11"
+}

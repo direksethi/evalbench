@@ -1,0 +1,5 @@
+{
+  "id": "ordinal",
+  "input": "Her last day is the 3rd of February 2026.",
+  "reference": "2026-02-03"
+}

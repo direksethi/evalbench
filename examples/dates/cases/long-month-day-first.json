@@ -1,0 +1,5 @@
+{
+  "id": "long-month-day-first",
+  "input": "We launch on 21 October 2026.",
+  "reference": "2026-10-21"
+}

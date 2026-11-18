@@ -1,0 +1,5 @@
+{
+  "id": "leading-zero",
+  "input": "The audit ran on 2026-07-08.",
+  "reference": "2026-07-08"
+}
